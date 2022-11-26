@@ -1,10 +1,9 @@
 from tkinter import *
 
-
 window = Tk()
 
 # Configure
-window.configure(bg="blue")
+window.configure(bg="aqua")
 
 # Geometry
 window.geometry("500x500")
@@ -121,23 +120,23 @@ def SearchContact():
 
 # Leaving Blank Place
 
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
 
 button1 =  Button(window, text="Add A New Entry", width=50,height=4, bg="black", fg="white", command    =AddANewEntry).pack()
 
 #Adding Some Blank Space
 
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
-Label(text="", bg="blue").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
+Label(text="", bg="aqua").pack()
 
 button2 =  Button(window, text="Search For an Existing Entry", width=50,height=4, bg = "black", fg = "white",command=SearchContact).pack()
 
